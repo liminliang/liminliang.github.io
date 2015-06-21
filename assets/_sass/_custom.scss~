@@ -2,13 +2,12 @@
 
 $base01: red;
 $base02: fuchsia;
-$base03: steelblue;
+$base03: darkgray;
 $base04: mediumturquoise;
 $base05: skyblue;
 $base06: moccasin;
 $base07: white;
 $base08: black;
-$base09: darkgray;
 
 $alpha: 1/6;
 

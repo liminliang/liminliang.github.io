@@ -1,182 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <channel>
-    <title>Jekyll template</title>
+    <title>李敏良的博客</title>
     <description></description>
-    <link>//ihavee.github.io</link>
-    <lastBuildDate>Sun, 21 Jun 2015 11:02:40 +0800</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2015 11:02:40 +0800</pubDate>
+    <link>http://liminliang.github.io</link>
+    <lastBuildDate>Sun, 21 Jun 2015 22:02:06 +0800</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2015 22:02:06 +0800</pubDate>
     <ttl>1800</ttl>
 
     
     <item>
-      <title><![CDATA[测试文章]]></title>
-      <description>&lt;p&gt;这是一个 &lt;code&gt;代码块&lt;/code&gt;&lt;/p&gt;
+      <title><![CDATA[Ubuntu下搭建Jekyll运行平台]]></title>
+      <description>&lt;p&gt;&lt;img src=&quot;/assets/img/github.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;这是一个 &lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;本文假设你已经具备Ubuntu（或Linux，在写本篇博客时，我用的是Ubuntu 15.04的版本）的基本操作，同时已经在GitHub上拥有个人账号（&lt;strong&gt;并且已经建立了一个名为：username.github.io的repository&lt;/strong&gt;），并且已经能够通过个人电脑进行远程SSH登录。&lt;/p&gt;
 
-&lt;p&gt;这是一个 &lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;这是一个代码段
+&lt;h5&gt;(1) 安装Ruby&lt;/h5&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ sudo apt-get install ruby
+$ sudo apt-get install ruby-dev
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这是一个引用&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      <link>//ihavee.github.io/demo/2014-08/test-post.html</link>
-      <guid>//ihavee.github.io/demo/2014-08/test-post</guid>
-      <pubDate>Sat, 16 Aug 2014 00:00:00 +0800</pubDate>
-    </item>
-    
-    <item>
-      <title><![CDATA[Hello Jekyll!]]></title>
-      <description>&lt;h1&gt;测试 h1&lt;/h1&gt;
+&lt;p&gt;\n\n\n&lt;/p&gt;
 
-&lt;h2&gt;测试 h2&lt;/h2&gt;
+&lt;h5&gt;(2) 设置国内Ruby源&lt;/h5&gt;
 
-&lt;h3&gt;测试 h3&lt;/h3&gt;
-
-&lt;h4&gt;测试 h4&lt;/h4&gt;
-
-&lt;h5&gt;测试 h5&lt;/h5&gt;
-
-&lt;h6&gt;测试 h6&lt;/h6&gt;
-
-&lt;p&gt;&lt;strong&gt;测试粗体&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;测试斜体&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;测试引用&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;测试行代码 &lt;code&gt;_post&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;测试段落代码&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/* hello world demo */&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello, World!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;由于国内使用ruby官方源会出现无法连接的问题，因此需要将其源设置为淘宝服务器的源。&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ gem sources -r https://rubygems.org/
+$ gem sources -a http://ruby.taobao.org/
+$ gem sources -u
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;下面是表格&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;上述代码的最后一行经过更新源的缓存以后，即完成了Ruby的gem源的更改。&lt;/p&gt;
 
-&lt;table&gt;&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;head1&lt;/th&gt;
-&lt;th style=&quot;text-align: left&quot;&gt;head2&lt;/th&gt;
-&lt;th style=&quot;text-align: right&quot;&gt;head3&lt;/th&gt;
-&lt;th style=&quot;text-align: center&quot;&gt;head4&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;row1text1&lt;/td&gt;
-&lt;td style=&quot;text-align: left&quot;&gt;row1text2&lt;/td&gt;
-&lt;td style=&quot;text-align: right&quot;&gt;row1text3&lt;/td&gt;
-&lt;td style=&quot;text-align: center&quot;&gt;row1text4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;row2text1&lt;/td&gt;
-&lt;td style=&quot;text-align: left&quot;&gt;row2text2&lt;/td&gt;
-&lt;td style=&quot;text-align: right&quot;&gt;row2text3&lt;/td&gt;
-&lt;td style=&quot;text-align: center&quot;&gt;row2text4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;row3text1&lt;/td&gt;
-&lt;td style=&quot;text-align: left&quot;&gt;row3text2&lt;/td&gt;
-&lt;td style=&quot;text-align: right&quot;&gt;row3text3&lt;/td&gt;
-&lt;td style=&quot;text-align: center&quot;&gt;row3text4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;row4text1&lt;/td&gt;
-&lt;td style=&quot;text-align: left&quot;&gt;row4text2&lt;/td&gt;
-&lt;td style=&quot;text-align: right&quot;&gt;row4text3&lt;/td&gt;
-&lt;td style=&quot;text-align: center&quot;&gt;row4text4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-</description>
-      <link>//ihavee.github.io/demo/2014-08/hello-jekyll.html</link>
-      <guid>//ihavee.github.io/demo/2014-08/hello-jekyll</guid>
-      <pubDate>Wed, 13 Aug 2014 00:00:00 +0800</pubDate>
-    </item>
-    
-    <item>
-      <title><![CDATA[Welcome to Jekyll!]]></title>
-      <description>&lt;h1&gt;测试 h1&lt;/h1&gt;
+&lt;h5&gt;(3) 安装nodejs&lt;/h5&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ sudo apt-get install nodejs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;(4) 安装Jekyll&lt;/h5&gt;
 
-&lt;h2&gt;测试 h2&lt;/h2&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;如果在安装过程中系统提示没有安装&lt;code&gt;rdoc&lt;/code&gt;，&lt;code&gt;rdiscount&lt;/code&gt;，&lt;code&gt;kramdown&lt;/code&gt;等，可以执行下面步骤安装&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ sudo gem install jekyll
+$ sudo gem install kramdown
+$ sudo gem install rdoc
+$ sudo gem install rdiscount
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;(5)运行Jekyll server&lt;/h5&gt;
 
-&lt;h3&gt;测试 h3&lt;/h3&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;安装完成以后，本地jekyll环境就搭建完成了，进入个人博客的根目录，运行下面的命令即可启动jekyll服务器。&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ jekyll server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;在浏览器中输入：http://localhost:4000即可显示&lt;/p&gt;
 
-&lt;h4&gt;测试 h4&lt;/h4&gt;
+&lt;h5&gt;(6) Git的安装与使用&lt;/h5&gt;
 
-&lt;h5&gt;测试 h5&lt;/h5&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;在本地环境编写和调试后的网页代码和文件，需要通过Git跟GitHub链接传送。首先，需要在Ubuntu上安装Git：&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ sudo apt-get install git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上传博客到GitHub，在blog所在文件夹内&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ git init
+$ git add .
+$ git commit -m “initialization”
+$ git remote add origin https://github.com/USERNAME/USERNAME.github.io.git
+$ git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;上传成功后，利用&lt;em&gt;USERNAME.github.io&lt;/em&gt;的域名就可以看到网页。&lt;/p&gt;
 
-&lt;h6&gt;测试 h6&lt;/h6&gt;
-
-&lt;p&gt;&lt;strong&gt;测试粗体&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;测试斜体&lt;/em&gt;&lt;/p&gt;
+&lt;h5&gt;(7) 参考内容&lt;/h5&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;测试引用&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://coolshell.info/blog/2015/03/github-pages-blog.html&quot;&gt;[1] http://coolshell.info/blog/2015/03/github-pages-blog.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://havee.me/&quot;&gt;[2] http://havee.me/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://wowubuntu.com/markdown/&quot;&gt;[3] http://wowubuntu.com/markdown/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/q81RER&quot;&gt;[4] http://www.jianshu.com/p/q81RER&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;测试行代码 &lt;code&gt;_post&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;测试段落代码&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/* hello world demo */&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello, World!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;下面是表格&lt;/p&gt;
-
-&lt;table&gt;&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;head1&lt;/th&gt;
-&lt;th style=&quot;text-align: left&quot;&gt;head2&lt;/th&gt;
-&lt;th style=&quot;text-align: right&quot;&gt;head3&lt;/th&gt;
-&lt;th style=&quot;text-align: center&quot;&gt;head4&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;row1text1&lt;/td&gt;
-&lt;td style=&quot;text-align: left&quot;&gt;row1text2&lt;/td&gt;
-&lt;td style=&quot;text-align: right&quot;&gt;row1text3&lt;/td&gt;
-&lt;td style=&quot;text-align: center&quot;&gt;row1text4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;row2text1&lt;/td&gt;
-&lt;td style=&quot;text-align: left&quot;&gt;row2text2&lt;/td&gt;
-&lt;td style=&quot;text-align: right&quot;&gt;row2text3&lt;/td&gt;
-&lt;td style=&quot;text-align: center&quot;&gt;row2text4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;row3text1&lt;/td&gt;
-&lt;td style=&quot;text-align: left&quot;&gt;row3text2&lt;/td&gt;
-&lt;td style=&quot;text-align: right&quot;&gt;row3text3&lt;/td&gt;
-&lt;td style=&quot;text-align: center&quot;&gt;row3text4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;row4text1&lt;/td&gt;
-&lt;td style=&quot;text-align: left&quot;&gt;row4text2&lt;/td&gt;
-&lt;td style=&quot;text-align: right&quot;&gt;row4text3&lt;/td&gt;
-&lt;td style=&quot;text-align: center&quot;&gt;row4text4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
 </description>
-      <link>//ihavee.github.io/demo/2014-08/welcome-to-jekyll.html</link>
-      <guid>//ihavee.github.io/demo/2014-08/welcome-to-jekyll</guid>
-      <pubDate>Tue, 12 Aug 2014 00:00:00 +0800</pubDate>
+      <link>http://liminliang.github.io/web%E6%8A%80%E6%9C%AF/2015-06/Jekyll-on-Ubuntu.html</link>
+      <guid>http://liminliang.github.io/web%E6%8A%80%E6%9C%AF/2015-06/Jekyll-on-Ubuntu</guid>
+      <pubDate>Sun, 21 Jun 2015 00:00:00 +0800</pubDate>
     </item>
     
   </channel>

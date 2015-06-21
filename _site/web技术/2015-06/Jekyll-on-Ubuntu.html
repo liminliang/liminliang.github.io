@@ -4,13 +4,13 @@
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>About - 李敏良的博客</title>
-  <meta name="description" content="无用之见，己愚之思">
+  <title>Ubuntu下搭建Jekyll运行平台 - 李敏良的博客</title>
+  <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="liminliang">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/favicon.png">
-  <link rel="canonical" href="http://liminliang.github.io/about.html">
+  <link rel="canonical" href="http://liminliang.github.io/web%E6%8A%80%E6%9C%AF/2015-06/Jekyll-on-Ubuntu.html">
 
   <link rel="stylesheet" href="/assets/css/style.css" media="all">
 
@@ -80,39 +80,81 @@
         </div>
         <div class="row clearfix">
           <div class="col-md-12">
-<h2 class="title">About</h2>
-<h5>关于我</h5>
+  <h2 class="title"> Ubuntu下搭建Jekyll运行平台 <time class="small">2015.06.21</time></h2>
+  <div id="code" class="qrcode visible-lg"></div>
+  <p><img src="/assets/img/github.png" alt=""></p>
 
-<p>我啊，从2007年到2014年，整整7年都混迹于北京邮电大学。虽在通信工程专业搬了这么多年的砖，但闲暇之余也喜欢啃啃计算机或电子方面的草。回望学校里的每个通宵，都是具有里程碑意义的大事记。为期末考熬过通宵，为各种比赛熬过通宵，为修改论文熬过通宵、也为研究生会活动熬过通宵......再抬头望望未来5年或10年，又怎敢驻足不前！</p>
+<p>&emsp;&emsp;本文假设你已经具备Ubuntu（或Linux，在写本篇博客时，我用的是Ubuntu 15.04的版本）的基本操作，同时已经在GitHub上拥有个人账号（<strong>并且已经建立了一个名为：username.github.io的repository</strong>），并且已经能够通过个人电脑进行远程SSH登录。</p>
 
-<p>通过这个博客，首要目的在于鞭策自己不断学习记录。同时，也期望把有用的方法或思想传播给其他需要的人。作为一枚科技迷，虎嗅网、i黑马、钛媒体、腾讯科技...都是每天的必修课。作为一只理工男，倒腾倒腾Linux、web开发或Python数据处理也是兴趣使然。此外，还是一个文字爱好者，偶尔来点小兴致，也喜欢作作诗、写写词。</p>
+<h5>(1) 安装Ruby</h5>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ sudo apt-get install ruby
+$ sudo apt-get install ruby-dev
+</code></pre></div>
+<p>\n\n\n</p>
+
+<h5>(2) 设置国内Ruby源</h5>
+
+<p>&emsp;&emsp;由于国内使用ruby官方源会出现无法连接的问题，因此需要将其源设置为淘宝服务器的源。</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ gem sources -r https://rubygems.org/
+$ gem sources -a http://ruby.taobao.org/
+$ gem sources -u
+</code></pre></div>
+<p>&emsp;&emsp;上述代码的最后一行经过更新源的缓存以后，即完成了Ruby的gem源的更改。</p>
+
+<h5>(3) 安装nodejs</h5>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ sudo apt-get install nodejs
+</code></pre></div>
+<h5>(4) 安装Jekyll</h5>
+
+<p>&emsp;&emsp;如果在安装过程中系统提示没有安装<code>rdoc</code>，<code>rdiscount</code>，<code>kramdown</code>等，可以执行下面步骤安装</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ sudo gem install jekyll
+$ sudo gem install kramdown
+$ sudo gem install rdoc
+$ sudo gem install rdiscount
+</code></pre></div>
+<h5>(5)运行Jekyll server</h5>
+
+<p>&emsp;&emsp;安装完成以后，本地jekyll环境就搭建完成了，进入个人博客的根目录，运行下面的命令即可启动jekyll服务器。</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ jekyll server
+</code></pre></div>
+<p>在浏览器中输入：http://localhost:4000即可显示</p>
+
+<h5>(6) Git的安装与使用</h5>
+
+<p>&emsp;&emsp;在本地环境编写和调试后的网页代码和文件，需要通过Git跟GitHub链接传送。首先，需要在Ubuntu上安装Git：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ sudo apt-get install git
+</code></pre></div>
+<p>上传博客到GitHub，在blog所在文件夹内</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ git init
+$ git add .
+$ git commit -m “initialization”
+$ git remote add origin https://github.com/USERNAME/USERNAME.github.io.git
+$ git push -u origin master
+</code></pre></div>
+<p>上传成功后，利用<em>USERNAME.github.io</em>的域名就可以看到网页。</p>
+
+<h5>(7) 参考内容</h5>
 
 <blockquote>
-<p><em>汲九霄飞涧</em><br>
-<em>化东溟成瓯</em><br>
-<em>竹轩雨夜烹茶</em><br>
-<em>明珀映月</em><br>
-<em>湫然兮清风释朱霞</em><br>
-<em>幽岚迷醉</em><br>
-<em>绰约兮落木舞天涯</em><br>
-<em>等闲遏得东逝水</em><br>
-<em>唯把清茗笑浮华</em>  </p>
+<p><a href="http://coolshell.info/blog/2015/03/github-pages-blog.html">[1] http://coolshell.info/blog/2015/03/github-pages-blog.html</a></p>
+
+<p><a href="http://havee.me/">[2] http://havee.me/</a></p>
+
+<p><a href="http://wowubuntu.com/markdown/">[3] http://wowubuntu.com/markdown/</a></p>
+
+<p><a href="http://www.jianshu.com/p/q81RER">[4] http://www.jianshu.com/p/q81RER</a></p>
 </blockquote>
 
-<h5>联系我</h5>
+  <ul class="pager">
+    
+    <li class="previous disabled"><a href="#">&larr; Prev</a></li>
+    
+    
+    <li class="next disabled"><a href="#">Next &rarr;</a></li>
+    
+  </ul>
 
-<ul>
-<li>Email  : minliangli@qq.com</li>
-<li>weibo  : <a href="http://weibo.com/1319949480/profile?topnav=1&amp;wvr=6">Byowl</a></li>
-<li>知乎   : <a href="http://www.zhihu.com/people/li-min-liang-79">李敏良</a></li>
-<li>GitHub : <a href="https://github.com/liminliang">liminliang</a></li>
-</ul>
 
-<h5>关于本站</h5>
-
-<ul>
-<li>2015年6月:    倒腾了几天GitHub/Jekyll/Ruby，终于找了个称心的模板把此站跑起来了！</li>
-</ul>
 
 </div>
 
@@ -136,7 +178,7 @@
       $("#code").qrcode({
         width: 150,
         height: 150,
-        text: "http:http://liminliang.github.io/about.html"
+        text: "http:http://liminliang.github.io/web%E6%8A%80%E6%9C%AF/2015-06/Jekyll-on-Ubuntu.html"
       });
     </script>
     -->

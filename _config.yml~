@@ -3,7 +3,7 @@ title: "李敏良的博客"
 url: "http://liminliang.github.io"
 highlighter: pygments
 paginate: 5
-excerpt_separator: "\n\n\n"
+excerpt_separator: "<!-- more -->"
 
 author:
     name: liminliang
