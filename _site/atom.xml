@@ -4,12 +4,64 @@
   <title>李敏良的博客</title>
   <link href="http://liminliang.github.io//atom.xml" rel="self"/>
   <link href="http://liminliang.github.io"/>
-  <updated>2015-06-21T22:02:06+08:00</updated>
+  <updated>2015-06-30T01:01:36+08:00</updated>
   <id>http://liminliang.github.io</id>
   <author>
     <name>liminliang</name>
   </author>
 
+  
+  <entry>
+    <title>基于RFID的矿山井下安全综合管理系统</title>
+    <link href="http://liminliang.github.io/paper/2015-06/RFID-SYstems.html"/>
+    <updated>2015-06-28T00:00:00+08:00</updated>
+    <id>http://liminliang.github.io/paper/2015-06/RFID-SYstems</id>
+    <content type="html"></content>
+  </entry>
+  
+  <entry>
+    <title>基于社交网络的通信服务平台</title>
+    <link href="http://liminliang.github.io/paper/2015-06/Communication-Service-Platform-Based-on-SNS.html"/>
+    <updated>2015-06-27T00:00:00+08:00</updated>
+    <id>http://liminliang.github.io/paper/2015-06/Communication-Service-Platform-Based-on-SNS</id>
+    <content type="html"></content>
+  </entry>
+  
+  <entry>
+    <title>华为杯研究生数学建模竞赛——基于卫星云图的风矢场度量模型</title>
+    <link href="http://liminliang.github.io/paper/2015-06/Mathematical-Modeling.html"/>
+    <updated>2015-06-26T00:00:00+08:00</updated>
+    <id>http://liminliang.github.io/paper/2015-06/Mathematical-Modeling</id>
+    <content type="html">一、问题重述
+
+&amp;emsp;&amp;emsp;卫星云图为人类了解大气环流、中长期天气预报、灾害天气的预报以及研究人类生态环境的变化提供了有力的手段。同步地球卫星通过探测地球上空的温度，对应转化为灰度数据，下发到地球接收站。人类可以充分卫星图像数据及其特点建立准确的描述实际风矢场的度量模型和算法，实现云导风的反演。
+
+题目要求解答以下问题：
+
+问题一换算视场坐标。首先需要先给出灰度矩阵元素行列号对应于经纬度坐标的换算公式，确定灰度矩阵中每个元素对应的采样点在地球上的经纬度。\n\n\n以文本文件（jwd.txt）的形式给出结果的范围为：灰度矩阵中的第451行至550行，第451列至550列，对应...</content>
+  </entry>
+  
+  <entry>
+    <title>第七届研究生学术论坛开幕策划</title>
+    <link href="http://liminliang.github.io/paper/2015-06/Graduates-Union-of-BUPT.html"/>
+    <updated>2015-06-24T00:00:00+08:00</updated>
+    <id>http://liminliang.github.io/paper/2015-06/Graduates-Union-of-BUPT</id>
+    <content type="html"></content>
+  </entry>
+  
+  <entry>
+    <title>北邮那些年发表过的论文</title>
+    <link href="http://liminliang.github.io/paper/2015-06/Published-paper-in-BUPT.html"/>
+    <updated>2015-06-23T00:00:00+08:00</updated>
+    <id>http://liminliang.github.io/paper/2015-06/Published-paper-in-BUPT</id>
+    <content type="html">[1] Nonparameter Nonlinear Phase Noise Mitigation by Using M-ary Support Vector Machine for Coherent Optical Systems
+
+Minliang Li, Song Yu, Jie Yang, Zhixiao Chen, Yi Han, and Wanyi Gu
+
+Abstract
+
+The M-ary support vector machine (SVM) is introduced as a nonparameter nonlinear phase noise (NLPN)\n...</content>
+  </entry>
   
   <entry>
     <title>Ubuntu下搭建Jekyll运行平台</title>
