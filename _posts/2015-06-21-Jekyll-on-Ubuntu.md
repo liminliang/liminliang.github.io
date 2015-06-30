@@ -11,7 +11,7 @@ tags: [web, Ubuntu, Jekyll]
 ##### (1) 安装Ruby
     $ sudo apt-get install ruby
     $ sudo apt-get install ruby-dev
-\n\n\n
+&nbsp;
 
 ##### (2) 设置国内Ruby源
 &emsp;&emsp;由于国内使用ruby官方源会出现无法连接的问题，因此需要将其源设置为淘宝服务器的源。

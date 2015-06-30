@@ -11,7 +11,7 @@ Minliang Li, Song Yu, Jie Yang, Zhixiao Chen, Yi Han, and Wanyi Gu
 
 <b>Abstract</b>
 
-The M-ary support vector machine (SVM) is introduced as a nonparameter nonlinear phase noise (NLPN)\n\n\n mitigation approach for the coherent optical systems. The NLPN tolerance of the system can be improved by using the M-ary SVM to conduct nonlinear detection. In this scheme, SVMs with different classification strategies are utilized to execute binary classification for signals impaired by fiber NLPN. Since the separating hyperplane of each SVM is constructed by training data, this scheme is independent from the knowledge of the transmission link. In numerical simulation, the M-ary SVM performs better than the method of amplitude-dependent phase rotation at the transmitter and receiver, as well as the maximum likelihood detection with back rotation.
+The M-ary support vector machine (SVM) is introduced as a nonparameter nonlinear phase noise (NLPN)&nbsp;mitigation approach for the coherent optical systems. The NLPN tolerance of the system can be improved by using the M-ary SVM to conduct nonlinear detection. In this scheme, SVMs with different classification strategies are utilized to execute binary classification for signals impaired by fiber NLPN. Since the separating hyperplane of each SVM is constructed by training data, this scheme is independent from the knowledge of the transmission link. In numerical simulation, the M-ary SVM performs better than the method of amplitude-dependent phase rotation at the transmitter and receiver, as well as the maximum likelihood detection with back rotation.
 
 <b>Key Words</b>
 Nonlinear phase noise, quadratic amplitude modulation (QAM), support vector machine (SVM), M-ary SVM.

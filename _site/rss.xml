@@ -4,24 +4,201 @@
     <title>李敏良的博客</title>
     <description></description>
     <link>http://liminliang.github.io</link>
-    <lastBuildDate>Tue, 30 Jun 2015 01:01:36 +0800</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2015 01:01:36 +0800</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2015 01:06:42 +0800</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2015 01:06:42 +0800</pubDate>
     <ttl>1800</ttl>
 
     
     <item>
       <title><![CDATA[基于RFID的矿山井下安全综合管理系统]]></title>
-      <description></description>
-      <link>http://liminliang.github.io/paper/2015-06/RFID-SYstems.html</link>
-      <guid>http://liminliang.github.io/paper/2015-06/RFID-SYstems</guid>
+      <description>&lt;h5&gt;一、项目背景&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;1.矿井的安全现状&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;我国是能源消费大国，而国内目前是以煤炭为能源消费的主体。以近年来煤矿的安全现状为例：&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;2005年煤矿安全生产情况：全国煤矿企业共发生伤亡事故3341起，死亡5986人。百万吨死亡率为2.836。其中一次死亡3～9人重大事故210起，死亡886人。全国煤矿企业共发生重特大以上事故279起，死亡3586人，分别占总数的8%和60%。&amp;nbsp;其中：发生一次死亡10人以上特大事故58起，死亡1739人。发生一次死亡30人以上特别重大事故11起，死亡961人。其中国有重点煤矿发生3起，死亡419人。即辽宁省阜新矿业集团孙家湾煤矿海州立井“2·14”特别重大瓦斯爆炸事故，死亡214人，是新中国成立以来发生的第二起大事故。黑龙江龙煤集团七台河分公司东风煤矿“11·27”特别重大煤尘爆炸事故，死亡171人。河南鹤壁煤业集团二矿“10.3”特别重大瓦斯爆炸事故，死亡34人。全国煤矿发生瓦斯事故405起，死亡2157人。其中国有重点煤矿发生18起，死亡504人，国有地方煤矿发生40起，死亡120人；乡镇个体煤矿发生347起，死亡1533人。其中，发生一次死亡3～9人以上事故118起，死亡514人，发生一次死亡10人以上事故40起，死亡1319人。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;2006年煤矿安全生产情况：煤矿事故死亡4746人，实现了历史性的突破。煤矿百万吨死亡率为2.041，达到了历史最好水平。全国煤矿共发生瓦斯事故327起，死亡1319人。其中发生一次死亡10人以上特大瓦斯事故26起，死亡490。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;2007年煤矿安全生产情况：2007年全国煤矿事故死亡人数降至3786人。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;虽然事故的数量和人员损失的数量逐渐减少，但矿井的安全状况仍让人担心，随着电子信息技术的进步，采取更先进的技术和手段使得煤矿生产更为安全，这必然是国家，企业和工人都迫切渴望的目标。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.救援的定位困难&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;矿难发生以后，导致人员伤亡的原因有很多，其中对人员的定位不准确而导致错失最佳救援时机也是其中之一。由于井下环境复杂，及发生意外后井下的环境也有所改变。如何确定受困人员的人数、身份、大致位置也就成了救援中急需解决的问题。一旦确定了受困人员的大致位置，有助于迅速制定有针对性的救援方案，更快更有效的解救受困人员，减少人员伤亡。传统的人员定位方式仅靠人的经验和猜测，或者借助生命探测器，但仅仅是实现十分粗略的定位。本系统可以实现较精确的定位，较之传统的定位方式更科学、更有效，是对矿井下人员定位问题的出色的解决方案。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.改善管理方式，提高管理效率&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;矿井的人员数量较多，如何有效的进行管理也是需要解决的问题。本系统拥有人员考勤子系统，人员定位子系统，矿井数据采集子系统，视频检测等多个子系统。可以实现更为快捷、方便、高效的人员的管理，提高管理效率。矿井内拥有多种监测及警报系统，相应的也具有多个监测软件。比如煤矿中的瓦斯监控系统，通风系统等，加大了管理者的管理难度与复杂度。本系统集成多种功能，不仅可以实现对人员的较精确定位，记录人员考勤的情况，通过LED摄像头观察井下情况，还可以对井下的空气状况，供电情况进行监测，同时连接报警系统。减轻了管理者的管理压力，降低了管理的复杂度，能够在一定程度上提高管理效率，实现全数字化管理。&lt;/p&gt;
+
+&lt;h5&gt;二、国内外水平&lt;/h5&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;目前，在矿井中的有线通信主要依靠电话线，在矿井下应用的无线通信系统有6 大类：矿用透地通信系统、矿用漏泄通信系统、矿用感应通信系统、矿用载波通信系统、矿用小灵通通信系统、矿用CDMA通信系统。各系统的性能如下表所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;RFID是20世纪90年代兴起的一种非接触式的新型自动识别技术，它利用无线传输方式进行双向数据通信，进而达到自动识别并交换信息的目的。在南非，RFID技术已成功用于矿井管理，成功解决了关于矿井考勤、防盗、安全等矿井管理存在的问题。在国内矿区管理与计算机结合的程度主要限于井上部分，包括日常的企业流程管理、财会管理、运输管理。煤矿井下管理仍以经验管理为核心，随着煤炭行业信息化和网络化的发展，大多数煤矿企业在生产的实际过程中基本都采用了各种各样的煤矿管理系统，并在实际应用中发挥了重要的作用。随着RFID技术的引进，国内煤矿也开始使用RFID技术进行管理。&lt;/p&gt;
+
+&lt;h5&gt;三、发展趋势&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;1.RFID简介：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;RFID是（Radio Frequency Identification）的缩写，即射频识别技术，俗称电子标签。RFID射频识别是一种非接触式的自动识别技术，它通过射频信号自动识别目标对象并获取相关数据，识别工作无须人工干预，可工作于各种恶劣环境。RFID技术可识别高速运动物体并可同时识别多个标签， 操作快捷方便。RFID是一种突破性的技术：第一，可以识别单个的非常具体的物体，而不是像条形码那样只能识别一类物体；第二，其采用无线电射频，可以透过外部材料读取数据，而条形码必须靠激光来读取信息；第三，可以同时对多个物体进行识读，而条形码只能一个一个地读。此外，储存的信息量也非常大。最基本的RFID系统由三部分组成：标签(Tag)：由耦合元件及芯片组成，每个标签具有唯一的电子编码，附着在物体上标识目标对象；阅读器(Reader)：读取(有时还可以写入)标签信息的设备，可设计为手持式或固定式；天线(Antenna)：在标签和读取器间传递射频信号。一套完整的系统还需具备：数据传输和处理系统。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.RFID技术的基本工作原理&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;标签进入磁场后，接收解读器发出的射频信号，凭借感应电流所获得的能量发送出存储在芯片中的产品信息（Passive Tag，无源标签或被动标签），或者主动发送某一频率的信号（Active Tag，有源标签或主动标签）；解读器读取信息并解码后，送至中央信息系统进行有关数据处理。 &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.RFID技术的发展前景&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;RFID产业潜力无穷，应用的范围遍及制造、物流、医疗、运输、零售、国防等等。射频识别技术的发展，一方面受到应用需求的驱动，另一方面射频识别技术的成功应用反过来又将极大地促进应用需求的扩展。从技术角度说，射频识别技术的发展体现在若干关键技术的突破。从应用角度来说，射频识别技术的发展目的在于不断满足日益增涨的应用需求。 射频识别技术的发展得益于多项技术的综合发展。所涉及的关键技术大致包括：芯片技术、天线技术、无线收发技术、数据变换与编码技术、电磁传播特性。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;随着技术的不断进步，射频识别产品的种类将越来越丰富，应用也越来越广泛。可以预计，在未来的几年中，射频识别技术将持续保持高速发展的势头。射频识别技术的发展将会在电子标签(射频标签)、阅读器、系统种类等方面取得新进展。在电子标签方面，电子标签芯片所需的功耗更低，无源标签、半无源标签技术更趋成熟。其作用距离将更远，无线可读写性能也将更加完善，并且能够适合高速移动物品识别，识别速度也将更加快，具有快速多标签读写功能。与此同时，在强场强下的自保护功能也会更加完善、智能性更强，成本更低。在读写器方面，多功能读写器，包括与条码识别集成、无线数据传输、脱机工作等功能将被更多的应用。同时，多种数据接口包括RS232，RS422／485，USB，红外，以太网口也将得到应用。而读写器将实现多制式多频段兼容，能够兼容读写多种标签类型和多个频段标签。读写器会朝着小型化、便携式、嵌入式、模块化方向发展，成本将更加低廉，应用范围更加广泛。在系统方面，低频近距离系统将具有更高的智能、安全特性；高频远距离系统性能将更加完善，成本更低。而2.45GHz和5.8GHz系统将更加完善。同时，无芯片系统将逐渐得到应用。 &lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;射频识别技术未来的发展中，再结合其它高新技术，比如GPS、生物识别等技术，由单一识别向多功能识别方向发展的同时，将结合现代通信及计算机技术，实现跨地区、跨行业应用。&lt;/p&gt;
+
+&lt;h5&gt;四、项目成果主要内容&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;1.系统实现功能简介&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;“基于RFID的矿山井下安全综和管理系统”，以成熟的RFID、网络摄像头及物理传感器等为基础，结合J2EE开发的管理软件，总体完成实现了以下主要功能模块：矿井员工信息管理模块，员工考勤管理模块，井下员工实时定位管理模块，井下实时监控模块，井下安全系数采集模块。本系统基于提高矿山井下安全管理的出发点。通过井下员工位置的实时定位，结合网络摄像头对井下情况的实时监控。让管理人员在第一时间内了解矿井下的具体实时的情况，提高安全监管的能力。同时结合传感器，实现了矿井下安全系数的实时监测。当井下物理参数发生突变或超出安全限定值时，系统能够及时报警，从而提高了预防井下事故的能力。当矿井下有事故发生时，施救人员能够通过系统对井下员工位置信息的存储，及网络摄像头的录像记录，及时了解事故情况，采取有效的施救措施，从而，降低营救难度，提高营救效率，将井下人员伤亡降到最低。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;图（1）为整个系统的简化结构图，由于此系统那个为基于网络开发的应用。因此，系统管理员能够实现远程实时管理。根据本安全系统的设计，矿井下每位员工随身配备有源RFID卡，而在井下，根据井下具体情况，合理安放RFID读卡器，及配套设备（包括物理参数传感器、网络摄像头等）。而读卡器能够读取在其可读范围内的员工的RFID卡的信息，并将信息通过网络回送到服务器端，同时，网络摄像头采集的视频信息及相关的物理传感器所采集的物理信息，均能够通过网路传送到服务器端，系统管理员通过普通的浏览器便能进行相应的管理操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;图（2）为系统的实物图。本系统硬件部分，主要包括有源RFID卡，及RFID读卡器；能够实现全方位监控的网络摄像头；温湿度传感器；将数据通过网络传递的VDSL；系统电源；以及承载整个系统的有机透明箱。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;图（3）为系统的管理软件界面。通过J2EE构架编写完成。通过浏览器即能实现管理。如图所示，其主要包括的模块有员工信息模块，员工考勤模块，定位系统模块，系统管理模块。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/4.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 系统各模块成果介绍&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（1）、系统登录模块&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;登录模块主要是为系统的安全性进行的设计，由于本系统的管理软件是基于web开发的管理软件，在给管理员带来“瘦客户端”体验及随时随地的管理的同时，同时存在了安全的问题，如果不进行管理权限设置，则只要知道此系统服务器的IP地址及端口号等信息就能操作此系统，这样会给系统安全带来致命性地打击。而加入登录模块以后，对访问者加以控制，从而降低了系统的安全隐患。更加增强了系统的实用性。如图（4）为系统登录模块，当管理员登录时，输入的用户名、密码及验证码会与后台数据库中的信息相对比，如果不匹配，则不能进入系统，只用同时都正确，才能对系统进行相应的操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（2）、矿井员工信息管理模块&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;矿井员工信息管理模块，主要实现员工基本信息的管理，其中使用MySQL数据库存储员工的基本信息，表1-1和表1-2分别为系统数据库中井下设备上传至数据库中的信息和员工的相关信息表。图（5）为数据库中的表结构。在软件中，通过相应的操作，能够对员工基本信息进行浏览、添加、修改、查找及删除的功能。其中主要界面如图（6）、图（7）所示。并且基本的操作都会与后台数据库保持一致性。如图（6）中，员工信息表单右侧，在每条表单记录后面均有对应的查看、修改及删除操作的图标。点击相应的图标，就能进行具体的操作。而在信息表头上有对应的搜索框，填写相信的搜索信息就对要搜索的具体信息进行搜索和显示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/7.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/9.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;在图（7）所示的添加员工模块中，管理员根据表单中的列表项添加新员工的信息。当点击提交按钮后，如果填写的信息均已近完整，则表单的数据将被保存到后台的数据库中，而如果其中有没有填完整的信息，或者是和数据库中已存在的信息冲突，则系统将会提示管理员相关的错误信息，而管理员能够及时发现问题，从而改正添加的信息。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/10.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（3）、井下员工实时定位模块&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;此模块能够通过井下员工随身携带的有源RFID卡对井下员工进行实时定位。其基本原理如下：在矿井下的巷道中，每隔一段距离就布置RFID读卡，并且让每位矿工随身携带一个有源RFID卡，当矿工进入读卡器扫描范围时（通常为30到50米的距离），读卡器将会读取有源卡的信息，并将有源卡信息及读卡器自身的信息通过485线送到VDSL，而VDSL通过RJ45网线与路由器连接（使用路由是因为井下会有多个读卡器分布点，通过路由将多个点连接在一起，再将信息送到上层服务器），通过路由器将信息回馈到服务器，服务器通过软件将读卡器送上来的信息存储到数据库中的相应字段，从而前台程序就能读取此相应的读卡器的信息。根据读卡器的编号实现实时定位功能。图（8）为此系统实时定位模块，图中的各有色点代表了井下不同位置处的读卡器，当有员工通过此读卡器时，其信息被读取，并且在界面上相应的有色点会闪动并提示通过人员的信息。而红、黄、绿三种有色点代表了井下相应位置的不同信息。并且也能够显示通过井下传感器采集的相关物理信息。如图中所示，当读卡器读到员工信息时，在地图中相应的有色点旁，显示了通过员工的信息，而且还显示了此刻在此读卡器位置，矿井下的温度和湿度。而在地图下方的三个蓝色方框，可以分别显示不同的具体的信息，以及摄像头信息。如果管理员想要了解矿井下的实时情况，则可以点击摄像头信息，将摄像头采集的视频显示出来&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;实时定位模块，实现了整个系统软硬件的综合使用，这也是本系统的核心内容。通过员工位置信息，实时视频以及物理参数，实现井下安全的综合管理。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/11.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（4）、井下实时监控模块&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;此系统还配备了网络摄像头，实现井下实时监控的功能。如果矿井下发生异常情况，系统管理员能够通过网络摄像头，在第一时间了解井下的实时情况。而此网路摄像都的配备软件，能够对实时视频进行录像，为了解井下整体情况提供了有价值的参考。图（9）为系统实时监控模块的界面。管理员通过此界面，能够看到流畅的井下实时监控录像。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/12.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h5&gt;五、主要成果&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MineSecurity/13.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h5&gt;六、创新（特色）与应用&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;1、基于RFID及传感器的安全管理应用&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;随着“物联网”的快速发展，使得RFID技术及传感器渐渐成为了网络的组成部分。对于作为网络连接物的世界的扩展，传感器网络能够有效的实现对物理状态改变的感应，再通过已有的核心网络，将感应到的物理参量传递到信息处理服务器，对此物理参量进行有效地处理，形成人类能够理解的信息。本系统以目前较为成熟的RFID技术为基础，通过在矿井下布局读卡器实现员工位置信息的采集，而以传感器为基础，实时采集矿井下的各种重要的物理参数，并回馈给系统管理员。综合RFID及传感器，在增强了井下安全管理的同时，也降低了安全管理的难度。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2、基于J2EE开发的管理平台&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;J2EE构架是目前应用软件发展的一大趋势。此技术只需将相应的软件安装在网络中的服务器上，从而通过客户机浏览器就能够实现对软件的操作。这样不仅能够节约系统管理与维护的成本，而且管理人员还能够在任何时间，任何地点对安全管理系统进行监管，灵活性较大。而我们对本系统的开发，主要使用JAVA语言进行编程。主要考虑到JAVA语言的简洁和成熟，并且在网络通信方面有其自身优势。本系统软件包含人员考勤子系统，人员定位子系统，矿井物理安全数据采集子系统，视频实时监测系统等多个子系统。此系统的管理软件，集成多种功能。不仅可以实现对人员的精确定位，记录人员考勤情况，通过LED摄像头观察井下情况，还可以对井下的空气状况、煤尘和瓦斯浓度等物理参数进行采集分析和报警。此系统软件，减轻了管理者的管理压力，降低了管理的复杂度，能够在一定程度 上提高管理效率，实现全数字化管理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3、系统应用前景&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;本系统是以一种新的视角，并综合了RFID技术，传感器技术及网络编程技术，综合实现了矿井下安全管理的目标。能够在国内各煤矿企业中推广使用。&lt;/p&gt;
+
+&lt;h5&gt;七、项目研究进程说明&lt;/h5&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;按照本项目小组规划的进度安排，自从2009年01月至2010年04月，实现了整个系统的开发。具体各阶段的研究进展如下：&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;第一阶段(2009年01月—2009年03月)，在全小组成员的共同努力下，我们在前期调研阶段，学习了有源和无源RFID的基本理论知识。并且学习了JAVA编程基础。在此阶段，我们小组根据个人实际情况，王海良学习了数据库的相关理论，李敏良学习JAVA的编程知识，冯红平学习了RFID的基本理。在次阶段末，结合全组成员对基础知识的学习和掌握情况。在软件方面，我们最终确立构建基于J2EE框架的人员信息管理系统。所使用的开发语言为JAVA，开发平台是Eclipse，数据库开发管理系统使用MySQL。硬件方面，我们初步计划购买由蓝卡公司生产的BG-240/4远距离读卡器和有源卡。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;第二阶段（2009年04月—2010年02月），此阶段本小组的中心任务是完成J2EE构架的管理系统的编程，以及对系统硬件的设计。在此阶段，我们完成了管理系统软件各模块的设计和开发。能够实现人员的基本信息的管理，井下人员定位，井下实时监控及安全系数采集。在本系统的设计中，我们把此J2EE构架的管理系统划分为一下几个模块：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（1） 系统信息管理模块&lt;/strong&gt;：实现次此管理系统的基本设置和基本信息的管理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（2） 人员管理模块&lt;/strong&gt;：实现对员工基本信息的管理，能够添加，删除，更新和查询员工的基本信息。并且为后期结合硬件实现员工考勤和井下员工定位时，调用员工的基本情况大好基础。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（3） 实时定位模块&lt;/strong&gt;：此模块实现了通过RFID读卡器实现井下员工的位置信息的采集，并将相关位置信息在前台显示。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（4） 监控模块&lt;/strong&gt;：此模块通过与井下摄像头进行通讯，对井下情况实现实时监控。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;第三阶段（2010年03月—2010年04月）此阶段，本小组将整个系统组合在了一起，实现了软硬件的连调。并且做了相关的测试工作。最后将整个项目的资料进行了系统的整理。&lt;/p&gt;
+</description>
+      <link>http://liminliang.github.io/web%E6%8A%80%E6%9C%AF/2015-06/RFID-SYstems.html</link>
+      <guid>http://liminliang.github.io/web%E6%8A%80%E6%9C%AF/2015-06/RFID-SYstems</guid>
       <pubDate>Sun, 28 Jun 2015 00:00:00 +0800</pubDate>
     </item>
     
     <item>
       <title><![CDATA[基于社交网络的通信服务平台]]></title>
-      <description></description>
-      <link>http://liminliang.github.io/paper/2015-06/Communication-Service-Platform-Based-on-SNS.html</link>
-      <guid>http://liminliang.github.io/paper/2015-06/Communication-Service-Platform-Based-on-SNS</guid>
+      <description>&lt;h5&gt;背景介绍&lt;/h5&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;在移动互联网时代的新市场环境中，受OTT业务的冲击，中国移动2014年中期业绩报告显示：上半年语音业务、短信业务收入同比分别下降了5%和13.2%。战略转型的关键时期，如何利用已有优势开创行之有效的流量经营模式成了中国移动的当务之急。2014年8月以来，营改增的压力、营销费用的压降是公司可用资源进一步吃紧，将原来粗放的营销方式转变为节约和精准的营销新途径是客户保有及开拓市场的有效手段。
+&amp;nbsp;&lt;/p&gt;
+
+&lt;h5&gt;问题陈述&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;（一）&lt;/strong&gt;、当前，中国移动主要通过10086受理客户的投诉，然而面对庞大的客户群体，这种方式有其瓶颈：&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;1. 从时间维度来看，不同客户的众多投诉在内容上是相互重叠的。客服人员的大部分工作时间都是在为不同客户回答同样或类似的问题，效率不高。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;2. 客服人员在有限的工作时间里始终无法解决大量用户的疑惑，从而易导致客户问题得不到及时解决，出现客户再次投诉的恶性循环。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;3. 目前已有电子渠道的主要功能还是面向客户业务的查询，缺乏用户于用户之间在社交过程中形成的粘性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（一）&lt;/strong&gt;、中国移动现有数据类业务的研发和终端销售中品牌的选择，由于用户参与度低，存在以下问题：&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;1. 数据类业务不能较好地契合用户感知。中国移动往往有较好的愿景策划、设计和开发完相应的数据业务后，却因难以得到用户的认可而推广乏力。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;2. 公司主推销售的终端，在机型选择方面一般基于市场调研来进行，然后市场调研存在一定的局限性，它始终无法完全反映消费者个人真实意愿的全貌，这导致消费者所钟意的机型与销售所选机型之间存在不匹配的现象。&lt;/p&gt;
+
+&lt;h5&gt;解决纲要&lt;/h5&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;面对上述中国移动在客服及数据类业务研发推广、终端销售中所面临的问题，可以通过搭建基于社交网络的综合通信服务平台来得到一定的缓解。应按照社交网络产品路线来开发和搭建此平台，以投诉问题解决模块和产品研发推广模块作为此平台的两个主要功能，利用社交网络的特性，通过以下方式可达到解决问题的目的：&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;1. 用户可以通过手机号在此平台上进行注册。可通过赠送流量的方式鼓励用户注册，另外用户邀请好友入驻社区也可以进行流量奖励。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;2. 用户可以在此社交网络上提出各类自己遇到的问题，同时用户也可以根据自己的经验为其他用户解答问题，并设计积分制奖励为别人有效解答的客户，一定的积分可以兑换为流量或通话时长。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;3. 在数据业务研发过程中，可以邀请社区成员全程参与。让用户的喜好融入到产品的策划、设计、研发和测试中。同时，通过社区成员投票进行预售终端型号的选择。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;4. 在服务平台上，定期组织各类营销及非营销的活动，通过用户社交形成的粘性实现客户的保有及忠诚度管理。&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;5. 通过大数据处理相关技术，从综合服务平台上提炼有价值的数据，不仅可以了解用户投诉的热点问题，也能了解用户对业务和产品需求的变化。&lt;/p&gt;
+
+&lt;h5&gt;参考案例&lt;/h5&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;英国Giffgaff是一家完全基于社交网络的虚拟运营商。通过互联网的运营思维，其已成为英国通信业界的潜力股。根据2012年统计的数据，在用户的互助下，该公司每条业务咨询平均解决时间仅为24分钟，而其他运营商业务咨询平均解决时间则以小时计。截止目前，Giffgaff社区收到10000余条创意，其中500多条已经被实现，17条正式实施，平均每3条就有一条创意被实施。2013年中，Giffgaff在决定终端销售的型号时，通过社区在一周内得到了5000多份有效问卷。2012年客户满意度调查中，Giffgaff的用户净推荐值高达75，远高于传统通信运营商。&lt;/p&gt;
+</description>
+      <link>http://liminliang.github.io/jobs/2015-06/Communication-Service-Platform-Based-on-SNS.html</link>
+      <guid>http://liminliang.github.io/jobs/2015-06/Communication-Service-Platform-Based-on-SNS</guid>
       <pubDate>Sat, 27 Jun 2015 00:00:00 +0800</pubDate>
     </item>
     
@@ -33,7 +210,7 @@
 
 &lt;p&gt;&lt;strong&gt;题目要求解答以下问题：&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;问题一&lt;/strong&gt;换算视场坐标。首先需要先给出灰度矩阵元素行列号对应于经纬度坐标的换算公式，确定灰度矩阵中每个元素对应的采样点在地球上的经纬度。\n\n\n以文本文件（jwd.txt）的形式给出结果的范围为：灰度矩阵中的第451行至550行，第451列至550列，对应的经纬度坐标。而在论文中给出第500行和第500、501、502列三个交叉点处对应的经纬度。并且将卫星灰度矩阵IR1_2100.mat转化为卫星云图（参考附录中的卫星云图），并在这个卫星云图上添加海岸线。保存卫星云图为PDF JPEG文件，取名为spic.pdf 或spic.jpg。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;问题一&lt;/strong&gt;换算视场坐标。首先需要先给出灰度矩阵元素行列号对应于经纬度坐标的换算公式，确定灰度矩阵中每个元素对应的采样点在地球上的经纬度。&amp;nbsp;以文本文件（jwd.txt）的形式给出结果的范围为：灰度矩阵中的第451行至550行，第451列至550列，对应的经纬度坐标。而在论文中给出第500行和第500、501、502列三个交叉点处对应的经纬度。并且将卫星灰度矩阵IR1_2100.mat转化为卫星云图（参考附录中的卫星云图），并在这个卫星云图上添加海岸线。保存卫星云图为PDF JPEG文件，取名为spic.pdf 或spic.jpg。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;问题二&lt;/strong&gt;：根据三个相邻时刻的卫星数据（IR1&lt;em&gt;2030.mat, IR1&lt;/em&gt;2100.mat, IR1_2130.mat），用适当的方法建立21：00时刻风矢场的度量模型，给出计算方案，这里限定风矢计算中像素块匹配所选用的窗口大小为16×16个像素，搜索范围限定为64×64个像素。利用建立的方法计算21:00时刻在各个（整数）经纬度处的二维风矢。计算范围为：南纬40度至北纬40度，东经46度至126度。在论文中给出上面计算结果中全部非零风矢的个数，并给出在纬度26度，经度分别是52，53，54，57，58（度）处的风矢，这些风矢的表示形式可参照下面问题4中对winsh.txt要求的格式。给出你们对上述窗口大小和搜索范围的限定的理解或评价。&lt;/p&gt;
 
@@ -57,10 +234,119 @@
     </item>
     
     <item>
-      <title><![CDATA[第七届研究生学术论坛开幕策划]]></title>
-      <description></description>
-      <link>http://liminliang.github.io/paper/2015-06/Graduates-Union-of-BUPT.html</link>
-      <guid>http://liminliang.github.io/paper/2015-06/Graduates-Union-of-BUPT</guid>
+      <title><![CDATA[北京邮电大学第七届研究生学术论坛开幕策划]]></title>
+      <description>&lt;h5&gt;一、活动背景&lt;/h5&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;北京邮电大学第七届“研究生学术论坛”启动之际。为了让我校广大同学进一步了解学术论坛的具体情况；同时，让更多研究生同学参与学术论坛，并从中得到科研学术方面的锻炼。我们（北京邮电大学研究生会）与北京邮电大学研究生院、共青团北京邮电大学委员会老师共同筹备下，计划在学术论坛启动时开展以宣传学术论坛为出发点，以专家讲座为主要形式，以“孵化你的学术创想”为主题的第七届“研究生学术论坛”开幕式。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;时间&lt;/strong&gt;：2012年3月21日（周三），晚7:00&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;地点&lt;/strong&gt;：教三-130&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;讲座&lt;/strong&gt;主题：解密学术，孵化创想
+&amp;nbsp;&lt;/p&gt;
+
+&lt;h5&gt;二、活动目的、意义和目标&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;（1）活动目的及意义&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;第七届“研究生学术论坛”开幕式，主要目的在于对本届学术论坛启动报名阶段的宣传。届时，通过邀请学校相关领导、讲座主讲专家及各学院研究生辅导员参与，向参与开幕讲座的同学介绍“研究生学术论坛”的基本情况（包括报名资格、参赛方式、参赛收获和关键时间点）。同时，通过主讲嘉宾开展的讲座，让参与开幕讲座的同学在科研学术方面的知识得到积累，了解前沿科技的进展情况及将来的走向。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（2）活动目标&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;活动前期，通过到位的宣传方式，吸引广大同学前来参与讲座。同时，通过开幕讲座，提高本届“研究生学术论坛”的知名度与参与度。&lt;/p&gt;
+
+&lt;h5&gt;三、邀请嘉宾&lt;/h5&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;研究生院院长：王文博&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;研究生院副院长：张泳&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;研究生院培养与学位办公室主任：董玲玲&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;共青团北京邮电大学委员会：（问郭老师）&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;北京邮电大学教育基金会：（问郭老师）&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;各学院研究生辅导员&lt;/p&gt;
+
+&lt;h5&gt;四、宣传方式&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;     【注】
+         （1）横幅制作三个：“第七届“研究生学术论坛”开幕式”——悬挂于会场；
+
+          “解密学术，孵化创想”——悬挂于会小松林；
+
+          “预祝第七届“研究生学术论坛”圆满成功”——悬挂教三门口。
+
+          （2）所有实体宣传品务必在3月19日前准备好电子版。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;五、讲座开展&lt;/h5&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;【具体人员安排，及个人的分工详见附录一】&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（1）前期准备&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;A、宣传品细节问题&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;【喷绘】：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;【横幅】：&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;       (1) 单排：北京邮电大学第七届研究生学术论坛开幕式
+       (2) 上排：第七届研究生学术论坛开幕讲座——解密学术，孵化创想
+            下排：主讲：高飞，时间：2012年3月21日，地点：教三-130
+       (3) 上排：预祝第七届研究生学术论坛圆满成功
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;【海报】：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;【宣传明信片】：&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;【正面】：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/4.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;【参赛手册封面（电子版）】&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/5.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;emsp;&amp;emsp;B、确定时间场地借用&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;        根据研究生院老师确定最终主讲嘉宾名单，及具体时间。临时需要调整的事情有：
+        1、 修改参赛手册具体时间和相应的内容；
+        2、 修改宣传品，海报上的时间、主讲人及主讲内容
+        3、 修改“学术论坛”启动通知中的相关信息
+        4、 及时借用教室、篮球场、横幅悬挂地点、各种宣传途径、相机等
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;（2）讲座流程&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h5&gt;六、所需物品清单&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/7.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h5&gt;七、开幕讲座预算表&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/9.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/10.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/11.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/12.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/13.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/AcademicForum/14.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</description>
+      <link>http://liminliang.github.io/activity/2015-06/Graduates-Union-of-BUPT.html</link>
+      <guid>http://liminliang.github.io/activity/2015-06/Graduates-Union-of-BUPT</guid>
       <pubDate>Wed, 24 Jun 2015 00:00:00 +0800</pubDate>
     </item>
     
@@ -72,7 +358,7 @@
 
 &lt;p&gt;&lt;b&gt;Abstract&lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;The M-ary support vector machine (SVM) is introduced as a nonparameter nonlinear phase noise (NLPN)\n\n\n mitigation approach for the coherent optical systems. The NLPN tolerance of the system can be improved by using the M-ary SVM to conduct nonlinear detection. In this scheme, SVMs with different classification strategies are utilized to execute binary classification for signals impaired by fiber NLPN. Since the separating hyperplane of each SVM is constructed by training data, this scheme is independent from the knowledge of the transmission link. In numerical simulation, the M-ary SVM performs better than the method of amplitude-dependent phase rotation at the transmitter and receiver, as well as the maximum likelihood detection with back rotation.&lt;/p&gt;
+&lt;p&gt;The M-ary support vector machine (SVM) is introduced as a nonparameter nonlinear phase noise (NLPN)&amp;nbsp;mitigation approach for the coherent optical systems. The NLPN tolerance of the system can be improved by using the M-ary SVM to conduct nonlinear detection. In this scheme, SVMs with different classification strategies are utilized to execute binary classification for signals impaired by fiber NLPN. Since the separating hyperplane of each SVM is constructed by training data, this scheme is independent from the knowledge of the transmission link. In numerical simulation, the M-ary SVM performs better than the method of amplitude-dependent phase rotation at the transmitter and receiver, as well as the maximum likelihood detection with back rotation.&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Key Words&lt;/b&gt;
 Nonlinear phase noise, quadratic amplitude modulation (QAM), support vector machine (SVM), M-ary SVM.&lt;/p&gt;
@@ -175,7 +461,7 @@ systems. The effect of the different distribution patterns of FPS on PMD mitigat
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ sudo apt-get install ruby
 $ sudo apt-get install ruby-dev
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;\n\n\n&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;h5&gt;(2) 设置国内Ruby源&lt;/h5&gt;
 
